@@ -1,7 +1,7 @@
 <?php
 $name = $_POST["name"];
 $email = $_POST["email"];
-$subject = $_POST["subject"];
+$phone = $_POST["phone"];
 $message = $_POST["message"];
 
 
@@ -17,8 +17,8 @@ $Fields.= "Email: ";
 $Fields .= $email;
 $Fields .= "\n";
 
-$Fields .= "Subject: ";
-$Fields .= $subject;
+$Fields .= "Phone: ";
+$Fields .= $phone;
 $Fields .= "\n";
 
 $Fields.= "Message: ";
